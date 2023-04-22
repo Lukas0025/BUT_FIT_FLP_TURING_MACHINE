@@ -1,0 +1,6 @@
+S   B R 
+B   C R 
+C   D R 
+D   E R 
+E   F R 
+

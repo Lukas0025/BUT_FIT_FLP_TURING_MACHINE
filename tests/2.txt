@@ -1,0 +1,11 @@
+S   H h 
+H h E R 
+E   E e
+E e L R
+L   L l 
+L l I R
+I   I l
+I l O R
+O   O o
+O o F R
+

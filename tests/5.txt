@@ -1,0 +1,5 @@
+S a S R
+S a B R
+B b C R
+C c F R
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabcsadasfas
