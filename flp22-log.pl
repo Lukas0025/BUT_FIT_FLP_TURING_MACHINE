@@ -173,7 +173,8 @@ loadFile(File, Tape) :-
     paraseLines(Lines, Tape),
     close(Stream).
 
-:- initialization(main).
+% if using as interpreth
+%:- initialization(main).
 
 main :-
     current_prolog_flag(argv, Argv),
