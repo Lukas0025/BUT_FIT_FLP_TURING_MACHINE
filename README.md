@@ -81,6 +81,10 @@ Součásti projektu je jednudechý script pro automatické testovaání který j
 make test
 ```
 
+### Rozšíření
+
+Možnost čtení ze STDIN, nebo ze souboru, podle přístomnosti parametru obsahujícího jméno souboru.
+
 ### Omezení
 
 Program je omezen maximálním počtem kroků, které TS smí udělat, pokud by chtěl udělat víc bude detekováno cykletí. Pokud by bylo nutné je tento limit možné zvíšit v `runTM` sučasné maximum je `1 000 000` kroků. Program má také problém detekovat cykli pokud u kterých nedochází k opakování konfigurace například jít stále doprava v takovém případě může program počítat příliš dlouhodu dobu než řekne že není možné nalést řešení. Problematické budou také vtupy které budou umožňovat právě tento typ cyklení a zároveň cestu do cíle, nicméně pokud počet kroků pro nalezení řešení nebude příliš vysoký měl by program řešení nalézst dostatečně brzo.
