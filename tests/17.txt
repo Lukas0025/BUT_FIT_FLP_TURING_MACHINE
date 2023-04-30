@@ -1,0 +1,19 @@
+S   S R
+S h S R
+S e S R
+S l S R
+S p S R
+S w S R
+S o S R
+S r S R
+S d S R
+S h A a
+A a B R
+B e C h
+C h D R
+D l E o
+E o I R
+I l J j
+J j K R
+K o F  
+help word hello word

@@ -1,0 +1,29 @@
+S 0 A R
+S 1 B R
+S 2 C R
+S 3 D R
+A 0 A R
+A 1 B R
+A 2 C R
+A 3 D R
+B 0 B R
+B 1 C R
+B 2 D R
+B 3 A R
+C 0 C R
+C 1 D R
+C 2 A R
+C 3 B R
+D 0 D R
+D 1 A R
+D 2 B R
+D 3 C R
+A = A R
+B = B R
+C = C R
+D = D R
+A   F 0
+B   F 1
+C   F 2
+D   F 3
+123112233000101111232=

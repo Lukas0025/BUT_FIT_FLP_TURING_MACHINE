@@ -1,0 +1,15 @@
+S   S R
+S a S R
+S h S R
+S o S R
+S j S R
+S   S L
+S a S L
+S h S L
+S o S L
+S j S L
+S a A R
+A h H R
+H o O R
+O j F R
+ahhahahahhahhahah ahoa hahahhaha   ahahhaahoj jhjhjojojo

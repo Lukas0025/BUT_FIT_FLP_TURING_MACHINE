@@ -1,0 +1,35 @@
+S   A R
+S   Z R
+Z - F -
+A 0 A R
+A 1 A R
+A 0 B -
+A 1 I -
+B . C R
+B - B R
+C 0 C R
+C 1 C R
+C 0 D -
+C 1 E -
+D . G R
+D - D R
+G 0 G R
+G 1 G R
+G   O 0
+E . H R
+E - E R
+I . J R
+I - I R
+H 0 H R
+H 1 H R
+H   O 1
+J 0 J R
+J 1 J R
+J 0 E -
+J 1 D -
+O 1 O L
+O 0 O L
+O . O L
+O - O L
+O   S   
+ 10100011.10011010.

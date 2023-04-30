@@ -1,0 +1,22 @@
+S - S R
+S . S R
+S   F R
+S o A -
+S k G -
+A - A R
+A o A R
+A k A R
+A o B R
+B . D L
+D o O .
+O o O L
+O - S R
+O k O L
+O . O L
+G - G R
+G o G R
+G k G R
+G k H R
+H . K L
+K k O .
+-ookkkokkokokkokokkokokoo.

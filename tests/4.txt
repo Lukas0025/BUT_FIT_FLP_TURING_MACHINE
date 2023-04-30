@@ -2,5 +2,5 @@ S   B R
 B   C R 
 C   D R 
 D   E e 
-E   F R 
+E e F R 
 
