@@ -160,7 +160,7 @@ runTM(Tape, Configurations) :- runTMDLS(Tape, Configurations, 2, 1000000).
  */
 runTMDLS(Tape, Configurations, CurLim, _)     :- stepsTM(Tape, 0, 'S', Configurations, CurLim).
 runTMDLS(Tape, Configurations, CurLim, Limit) :- (CurLim < 100, NewLimit is CurLim + 1 ; NewLimit is CurLim * 10), NewLimit =< Limit, runTMDLS(Tape, Configurations, NewLimit, Limit).
-runTMDLS(_, _, CurLim, _)                     :- write("TM Abnormal stop or cycle detect used upto "), write(CurLim), writeLn(" steps"), halt(1).
+runTMDLS(_, _, CurLim, _)                     :- write('TM Abnormal stop or cycle detect used upto '), write(CurLim), writeLn(' steps'), halt(1).
 
 /**
  * Get transition rules and inital tape from file and save rules to prolog database
