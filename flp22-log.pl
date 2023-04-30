@@ -173,6 +173,14 @@ loadFile(File, Tape) :-
     paraseLines(Lines, Tape),
     close(Stream).
 
+/**
+ * Get transition rules and inital tape from StdIn and save rules to prolog database
+ * @param [out] inital tape for turing machine
+ */
+loadStdIn(Tape) :-
+    getLines(user_input, Lines),
+    paraseLines(Lines, Tape).
+
 % if using as interpreth
 %:- initialization(main).
 
@@ -180,11 +188,12 @@ main :-
     current_prolog_flag(argv, Argv),
     length(Argv, Argc),
     
-    (Argc < 1 -> writeLn('No input file present') ; 
+    (Argc < 1 -> loadStdIn(Tape) ; 
         nth0(0, Argv, FileName), % get first argument
-        loadFile(FileName, Tape),
-        runTM(Tape, Configurations),
-        printConfigurations(Configurations)
+        loadFile(FileName, Tape)
     ),
+
+    runTM(Tape, Configurations),
+    printConfigurations(Configurations),
 
     halt.

@@ -14,9 +14,11 @@ make
 ```
 
 ### Spuštení
-Program očekává jden parametr kterým je cesta k souboru s providly a vstupní páskou.
+Program očekává jden parametr kterým je cesta k souboru s providly a vstupní páskou, pokud nebude tento paremetr uveden bude číst z stdin tento soubor
 
 ```sh
+./flp22-log < <rules file>
+# nebo 
 ./flp22-log <rules file>
 ```
 
